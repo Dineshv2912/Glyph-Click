@@ -21,3 +21,7 @@ NOTES.md
 reports/
 research_notes/
 .vscode/
+
+# Exception: photos of real printouts, shown in glyph_cam_direct/README.md
+!glyph_cam_direct/sample images/
+!glyph_cam_direct/sample images/*.jpeg

@@ -54,3 +54,11 @@ Put photos in `images/` at the project root, then:
 - `GS v 0` raster prints white lines every 24 rows. Use `DC2 *` (≤255 rows per command) or `DC2 V`.
 - `GS *` / `GS /` (downloaded bitmaps) are **not** supported: the printer prints the bytes as text.
 - Don't send `ESC 7` heat settings; the factory values print fine.
+
+## Sample prints
+
+Photos of real CSN-A1 printouts made with `print_image.py --auto` (Atkinson dither, even face tone, no white lines):
+
+| | | | | |
+|---|---|---|---|---|
+| ![](sample%20images/WhatsApp%20Image%202026-11-21%20at%206.29.42%20PM.jpeg) | ![](sample%20images/WhatsApp%20Image%202026-11-21%20at%206.29.43%20PM%281%29.jpeg) | ![](sample%20images/WhatsApp%20Image%202026-11-21%20at%206.29.43%20PM%282%29.jpeg) | ![](sample%20images/WhatsApp%20Image%202026-11-21%20at%206.29.43%20PM.jpeg) | ![](sample%20images/WhatsApp%20Image%202026-11-21%20at%206.30.13%20PM.jpeg) |
