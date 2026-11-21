@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Photos and test pictures (private / unclear rights) - never commit
+images/
+samples/
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# PlatformIO build output
+.pio/
+with_s3/.pio/
+
+# Not released yet: added in a later commit
+with_s3/
+NOTES.md
+reports/
+research_notes/
+.vscode/
