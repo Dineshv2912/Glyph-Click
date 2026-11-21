@@ -4,7 +4,6 @@ __pycache__/
 *.pyc
 
 # Photos and test pictures (private / unclear rights) - never commit
-images/
 samples/
 *.jpg
 *.jpeg
@@ -25,3 +24,7 @@ research_notes/
 # Exception: photos of real printouts, shown in glyph_cam_direct/README.md
 !glyph_cam_direct/sample images/
 !glyph_cam_direct/sample images/*.jpeg
+
+!images/
+!images/*.jpg
+!images/*.png
