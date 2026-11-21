@@ -16,7 +16,7 @@ No microcontroller is needed.
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install -r without_s3/requirements.txt
+.venv/bin/pip install -r glyph_cam_direct/requirements.txt
 ```
 
 Plug in the printer's USB cable. It appears as `/dev/ttyUSB0` (a PL2303 chip; the baud setting is ignored). Power the printer with 5–9 V and at least 2 A.
@@ -26,10 +26,10 @@ Plug in the printer's USB cable. It appears as `/dev/ttyUSB0` (a PL2303 chip; th
 Put photos in `images/` at the project root, then:
 
 ```bash
-.venv/bin/python without_s3/print_image.py photo.jpg --auto           # crop to faces
-.venv/bin/python without_s3/print_image.py photo.jpg --auto --full    # whole photo
-.venv/bin/python without_s3/print_image.py photo.jpg --auto --preview out.png   # no paper
-.venv/bin/python without_s3/print_image.py                            # list images/
+.venv/bin/python glyph_cam_direct/print_image.py photo.jpg --auto           # crop to faces
+.venv/bin/python glyph_cam_direct/print_image.py photo.jpg --auto --full    # whole photo
+.venv/bin/python glyph_cam_direct/print_image.py photo.jpg --auto --preview out.png   # no paper
+.venv/bin/python glyph_cam_direct/print_image.py                            # list images/
 ```
 
 | Option | Effect |
